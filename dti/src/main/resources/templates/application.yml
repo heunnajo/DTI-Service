@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dti_mysql?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    data: classpath:data.sql
+#    initialization-mode: always
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:/data.sql
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+#        show-sql: true
+        format_sql: true
+    defer-datasource-initialization: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
