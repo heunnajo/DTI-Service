@@ -33,8 +33,13 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	implementation 'mysql:mysql-connector-java:8.0.32'
 //	runtimeOnly 'org.postgresql:postgresql'
+	//test 롬복 사용
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// 테스트 의존성 추가
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {
