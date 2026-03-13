@@ -117,5 +117,36 @@
         "PlatformCode":"",
         "DtiType":"Json",
         "SignedJson":"{ "IssueDate": "20260310181137", "IssueID": "2026030141000008v7067981", "WriteDate": "20260301", "TypeCode": "DTI_GENERAL", "PurposeCode": "CHARGE", "Remark": [ "Long", "1" ], "Supplier": { "ComRegNo": "5508101124", "ComName": "제이크이엔엠 주식회사", "RepName": "조세연", "Address": "광주 광산구 2순환로 2474 (신가동)", "Type": "sd", "Class": "23", "Person": "조세연", "Tel": "01011111113", "Email": "2@gmail.com" }, "Buyer": { "BizType": "COM_REG_NO", "ComRegNo": "6094763938", "ComName": "문창영", "RepName": "문창영", "Address": "서울 영등포구 63로 10", "Type": "계속사업자", "Class": "bbssd", "Person": "Driver 1", "Tel": "01055555551", "Email": "hshshja@gmail.com" }, "PayType": [ { "Code": "CASH", "Amount": "0" }, { "Code": "CHECK", "Amount": "0" }, { "Code": "NOTE", "Amount": "0" }, { "Code": "CREDIT", "Amount": "44880" } ], "ChargeTotal": "44840", "TaxTotal": "40", "GrandTotal": "44880", "Items": [ { "Seq": "1", "PurchaseDate": "20260301", "Name": "2", "Spec": "", "Desc": "2", "Qty": "2", "UnitAmount": "22220", "InvoiceAmount": "44440", "TaxAmount": "20" }, { "Seq": "2", "PurchaseDate": "20260301", "Name": "2", "Spec": "", "Desc": "2", "Qty": "20", "UnitAmount": "20", "InvoiceAmount": "400", "TaxAmount": "20" } ] }"
+    },
+    {//"ResultCode":"60121","ResultMessage":"인증서의 비밀번호 복호화에 실패했습니다.",
+        "MessageId":"2701210020260225144658676996",
+        "Signal":"ARISSUE",
+        "RequestTime":"20260225144933",
+        "SendComRegno":"1218210117",
+        "ReceiveComRegno":"4608071140414",
+        "AuthToken":"bWtOL0N1RHd1V2JLUEV6eDB2dldPSml3YURzaHhmZ3ZIeGdWcXk2bG5PQT0K",
+        "ServiceCode":"DTI",
+        "DtiType":"Json",
+        "SystemType":"OAPI",
+        "ConversationId":"[ "12182101174608071140202602250020006" ]",
+        "SystemId":"",
+        "SignedJson":"{ "IssueDate": "20260225144933", "IssueID": "202602204100000853cpy3bd", "WriteDate": "20260220", "TypeCode": "DTI_GENERAL", "PurposeCode": "CHARGE", "Supplier": { "ComRegNo": "1218210117", "ComName": "인천산업유통사업(협)", "RepName": "황현배", "Address": "인천시 동구 송현동", "BizType": "서비스", "BizClass": "상가관리", "Dept": "", "Person": "황현배", "Tel": "032-589-0909", "Email": "idic@hanmail.net" }, "Buyer": { "BizType": "REG_NO", "ComRegNo": "4608071140414", "ComName": "윤창영", "RepName": "윤창영", "Address": "인천시 중구 유동 2", "Type": "", "Class": "", "Person": "윤창영", "Tel": "865 6100", "Email": "idic0909@naver.com" }, "ChargeTotal": "178121", "TaxTotal": "17812", "GrandTotal": "195933", "Items": [ { "Seq": "1", "PurchaseDate": "2026-02-20", "Name": "", "Spec": "", "Desc": "관리비", "Qty": "1", "InvoiceAmount": "178121", "TaxAmount": "17812" } ] }",
+        "CertPassword":"yV6+tq7xPXOBR2fb8NHPXg=="
+    },
+    {//"ResultCode":"60130","ResultMessage":"할당된 승인번호 업체코드가 아닙니다.",
+        "MessageId":"2701210020260225161353986948",
+        "Signal":"ARISSUE",
+        "RequestTime":"20260225161504",
+        "SendComRegno":"1218210117",
+        "ReceiveComRegno":"4608071140414",
+        "AuthToken":"bWtOL0N1RHd1V2JLUEV6eDB2dldPSml3YURzaHhmZ3ZIeGdWcXk2bG5PQT0K",
+        "ServiceCode":"DTI",
+        "DtiType":"Json",
+        "SystemType":"OAPI",
+        "ConversationId":"[ "12182101174608071140202602250020006" ]",
+        "SystemId":"",
+        "SignedJson":"{ "IssueDate": "20260225161504", "IssueID": "2026022041000008aun7arc6", "WriteDate": "20260220", "TypeCode": "DTI_GENERAL", "PurposeCode": "CHARGE", "Supplier": { "ComRegNo": "1218210117", "ComName": "인천산업유통사업(협)", "RepName": "황현배", "Address": "인천시 동구 송현동", "BizType": "서비스", "BizClass": "상가관리", "Dept": "", "Person": "황현배", "Tel": "032-589-0909", "Email": "idic@hanmail.net" }, "Buyer": { "BizType": "REG_NO", "ComRegNo": "4608071140414", "ComName": "윤창영", "RepName": "윤창영", "Address": "인천시 중구 유동 2", "Type": "", "Class": "", "Person": "윤창영", "Tel": "865 6100", "Email": "idic0909@naver.com" }, "ChargeTotal": "178121", "TaxTotal": "17812", "GrandTotal": "195933", "Items": [ { "Seq": "1", "PurchaseDate": "2026-02-20", "Name": "", "Spec": "", "Desc": "관리비", "Qty": "1", "InvoiceAmount": "178121", "TaxAmount": "17812" } ] }",
+        "CertPassword":"iJkOHB25dXrCtkMAsQozLA=="
     }
+
 ]
